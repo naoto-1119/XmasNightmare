@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logInActivity">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.xmsnm.xmasnightmare.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_FirstPart2Fragment"
+            app:destination="@id/FirstPart2Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/GameoverFragment"
+        android:name="com.xmsnm.xmasnightmare.GameoverFragment"
+        android:label="@string/gameover_fragment_label"
+        tools:layout="@layout/fragment_gameover">
+        <argument
+            android:name="myArg"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_GameoverFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.xmsnm.xmasnightmare.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_SecondFragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_secondPartHalfFragment"
+            app:destination="@id/secondPartHalfFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondPart2Fragment"
+        android:name="com.xmsnm.xmasnightmare.SecondPart2Fragment"
+        android:label="fragment_second_part2"
+        tools:layout="@layout/fragment_second_part2" >
+        <action
+            android:id="@+id/action_SecondPart2Fragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_SecondPart2Fragment_to_SecondPart3Fragment"
+            app:destination="@id/SecondPart3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondPart3Fragment"
+        android:name="com.xmsnm.xmasnightmare.SecondPart3Fragment"
+        android:label="fragment_second_part3"
+        tools:layout="@layout/fragment_second_part3" >
+        <action
+            android:id="@+id/action_SecondPart3Fragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_SecondPart3Fragment_to_SecondPart4Fragment"
+            app:destination="@id/SecondPart4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondPart4Fragment"
+        android:name="com.xmsnm.xmasnightmare.SecondPart4Fragment"
+        android:label="fragment_second_part4"
+        tools:layout="@layout/fragment_second_part4" >
+        <action
+            android:id="@+id/action_SecondPart4Fragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstPart2Fragment"
+        android:name="com.xmsnm.xmasnightmare.FirstPart2Fragment"
+        android:label="fragment_first_part2"
+        tools:layout="@layout/fragment_first_part2" >
+        <action
+            android:id="@+id/action_FirstPart2Fragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondPartHalfFragment"
+        android:name="com.xmsnm.xmasnightmare.SecondPartHalfFragment"
+        android:label="fragment_second_part1_half"
+        tools:layout="@layout/fragment_second_part1_half" >
+        <action
+            android:id="@+id/action_secondPartHalfFragment_to_SecondPart2Fragment"
+            app:destination="@id/SecondPart2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.xmsnm.xmasnightmare.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_ThirdFragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_ThirdPart2Fragment"
+            app:destination="@id/ThirdPart2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdPart2Fragment"
+        android:name="com.xmsnm.xmasnightmare.ThirdPart2Fragment"
+        android:label="fragment_third_part2"
+        tools:layout="@layout/fragment_third_part2" >
+        <action
+            android:id="@+id/action_ThirdPart2Fragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_ThirdPart2Fragment_to_ThirdPart3Fragment"
+            app:destination="@id/ThirdPart3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdPart3Fragment"
+        android:name="com.xmsnm.xmasnightmare.ThirdPart3Fragment"
+        android:label="fragment_third_part3"
+        tools:layout="@layout/fragment_third_part3" >
+        <action
+            android:id="@+id/action_ThirdPart3Fragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_ThirdPart3Fragment_to_ThirdPart4Fragment"
+            app:destination="@id/ThirdPart4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdPart4Fragment"
+        android:name="com.xmsnm.xmasnightmare.ThirdPart4Fragment"
+        android:label="fragment_third_part4"
+        tools:layout="@layout/fragment_third_part4" >
+        <action
+            android:id="@+id/action_ThirdPart4Fragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_ThirdPart4Fragment_to_ThirdPart5Fragment"
+            app:destination="@id/ThirdPart5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdPart5Fragment"
+        android:name="com.xmsnm.xmasnightmare.ThirdPart5Fragment"
+        android:label="fragment_third_part5"
+        tools:layout="@layout/fragment_third_part5" >
+        <action
+            android:id="@+id/action_ThirdPart5Fragment_to_GameoverFragment"
+            app:destination="@id/GameoverFragment" />
+        <action
+            android:id="@+id/action_ThirdPart5Fragment_to_finalFragment"
+            app:destination="@id/finalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.xmsnm.xmasnightmare.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/fragment_final" >
+        <action
+            android:id="@+id/action_finalFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.xmsnm.xmasnightmare.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_logInActivity"
+            app:destination="@id/logInActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInActivity"
+        android:name="com.xmsnm.xmasnightmare.LogInActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" >
+        <action
+            android:id="@+id/action_logInActivity_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

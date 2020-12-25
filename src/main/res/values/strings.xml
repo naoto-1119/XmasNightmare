@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Xmas Nightmare</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_log_in">Log In</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="clear">0</string>
+    <string name="login_user">User Name: %d</string>
+    <string name="clear_count">Completed: %d</string>
+    <string name="fail_count">Failed: %d</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gameover_fragment_label">Gameover Fragment</string>
+
+
+    <!--  Button Names  -->
+    <string name="tf_upload_button">Upload</string>
+    <string name="capture_button">Punch</string>
+    <string name="raindeer_first_round">Poke</string>
+    <string name="raindeer_second_round">Mask On</string>
+    <string name="raindeer_third_round">Shoot</string>
+    <string name="santa_first_round">Hide</string>
+    <string name="santa_second_round">Heart</string>
+    <string name="santa_third_round">Drink</string>
+    <string name="santa_fourth_round">Kamehameha</string>
+    <string name="final_page">Final Page</string>
+    <string name="next_round_button">Next Round</string>
+    <string name="next_button">Next</string>
+    <string name="return_button">Return Home</string>
+
+
+    <!--    HP-->
+    <string name="hp_0">HP: ♡♡♡</string>
+    <string name="hp_1">HP: ♥♡♡</string>
+    <string name="hp_2">HP: ♥♥♡</string>
+    <string name="hp_3">HP: ♥♥♥</string>
+
+    <!--   For General Dialogue  -->
+    <string name="defeated">DEFEATED</string>
+
+    <!--   For Ginger Dialogue  -->
+    <string name="ginger_bread_d1">Punch the Evil Ginger Bread Man and break him to pieces!!</string>
+    <string name="ginger_bread_d2">You punched the Evil Ginger Bread Man!!!</string>
+    <string name="ginger_bread_d3">You have crushed the Evil Ginger Bread Man! Go find the Evil Raindeer!!</string>
+    <string name="accuracy_punch">YOUR 👊 STRENGTH IS %d</string>
+
+    <!--   For Raindeer Dialogue  -->
+    <string name="raindeer_d1">Evil Reindeer Appeared! Poke him in the eye!!</string>
+    <string name="raindeer_d1.5">You poked the Evil Reindeers eyes!!</string>
+    <string name="raindeer_d2">Ouch!! Evil Reindeer is mad now! Be prepared for his attack!!</string>
+    <string name="raindeer_d3">Evil Reindeer sent out a furious GAS attack!!</string>
+    <string name="raindeer_d4">The MASK protected you from Evil Reindeers Fart!!</string>
+    <string name="raindeer_d5">The Evil Reindeer is trying to runaway! Dont let him runaway!</string>
+    <string name="raindeer_d6">You shot the running Evil Reindeer!</string>
+    <string name="raindeer_d7">You have defeated the Evil Reindeer! Go find the Evil Santa!!</string>
+    <string name="accuracy_poke">YOUR ✌ PENETRATION IS %d</string>
+    <string name="accuracy_mask">YOUR 😷 PROTECTION IS %d</string>
+    <string name="accuracy_shoot">YOUR 🔫 ACCURACY IS %d</string>
+
+    <!--    For Santa Dialogue-->
+    <string name="santa_d1">Evil Santa Appeared! He is playing Hide and Seek! Hide from Santa!</string>
+    <string name="santa_d2">Good Job! You hid well from the Evil Santa!</string>
+    <string name="santa_d3">You found a present box with a HEART shape lock! Send a heart to open the lock!</string>
+    <string name="santa_d4">Your HEART energy opened the lock! Lets check whats inside the box!</string>
+    <string name="santa_d5">You found a great looking POTION! Lets drink and power up!</string>
+    <string name="santa_d6">You drank the potion! Now you can unleash your true power!!</string>
+    <string name="santa_d7">You found Evil Santa again who was still playing Hide and Seek! Defeat Santa with your ultimate skill!!</string>
+    <string name="santa_d8">You were able to use KAMEHAMEHA!</string>
+    <string name="santa_d9">Congratulation! You now defeated all Evils! Your journey ends here!</string>
+    <string name="accuracy_hide">YOUR 🙈 SKILL IS %d</string>
+    <string name="accuracy_heart">YOUR ❤ ENERGY IS %d</string>
+    <string name="accuracy_drink">YOUR 🧴 POWER IS %d</string>
+    <string name="accuracy_kamehameha">YOUR ☀ POWER IS %d</string>
+
+    <!--   For Gameover Dialogu -->
+    <string name="gameover_d">Too Bad! Try Again!</string>
+    <string name="gameover_accuracy">Your power was %d. Not enough POWER!!</string>
+
+    <!--    For Machine Learning-->
+    <string name="accuracy">Accuracy</string>
+
+    <!--    Content Description for Images-->
+    <string name="gbm_content">Ginger Bread Man</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
