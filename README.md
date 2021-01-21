@@ -2,7 +2,7 @@
   <img width="300" height="300" src="https://play-lh.googleusercontent.com/bVQ41UaMkNNxuyQkRl3PC98pUSrzsePs1EymMzaJa9UMcz6xCP5Jry0GkRe36T2_mFY=w720-h310-rw">
 </p>
 
-# XmasNightmare
+# XmasNightmare (Published on 12/23/2020)
 Xmas Nightmare was create while learning Kotlin/Java from scratch and within less than a week!
 This application is a simulation game on Android application, which uses machine learning technologies that prompts players to take poses and capture those poses to defeat the enemies.
 
