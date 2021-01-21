@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://play-lh.googleusercontent.com/bVQ41UaMkNNxuyQkRl3PC98pUSrzsePs1EymMzaJa9UMcz6xCP5Jry0GkRe36T2_mFY=w720-h310-rw">
+  <img width="300" height="300" src="https://play-lh.googleusercontent.com/bVQ41UaMkNNxuyQkRl3PC98pUSrzsePs1EymMzaJa9UMcz6xCP5Jry0GkRe36T2_mFY=w720-h310-rw">
 </p>
 
 # XmasNightmare
