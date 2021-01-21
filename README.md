@@ -1,4 +1,4 @@
-https://play-lh.googleusercontent.com/hwY5klrTg3dF4p-8Vz5yEUobR-7VB8NLtaXolASynez5hb7BiMjo0IK_FOPpxE9o0O9Q=s180-rw
+![alt text](https://play-lh.googleusercontent.com/bVQ41UaMkNNxuyQkRl3PC98pUSrzsePs1EymMzaJa9UMcz6xCP5Jry0GkRe36T2_mFY=w720-h310-rw)
 
 # XmasNightmare
 Xmas Nightmare was create while learning Kotlin/Java from scratch and within less than a week!
